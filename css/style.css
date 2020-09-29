@@ -1,0 +1,203 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+}
+.header__text {
+  position: relative;
+  min-height: 120px;
+  width: 100%;
+  text-align: center;
+  background-color: #111;
+}
+.header__text  h1{
+  color: blue;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 1rem;
+
+}
+nav {
+  background-color:#121212;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 60%;
+      grid-template-columns: 30% 60%;
+  -webkit-column-gap: 10%;
+          column-gap: 10%;
+  padding: 0% 5%;
+}
+
+nav .array-inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_size {
+  padding: 3% 0%;
+}
+
+nav .array-inputs #a_speed {
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_generate:hover {
+  cursor: pointer;
+}
+
+nav .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: xxx-large;
+  padding: 3% 0%;
+}
+
+nav .header_right .algos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (16.66667%)[6];
+      grid-template-columns: repeat(6, 16.66667%);
+  place-content: center;
+  padding: 2% 0%;
+}
+
+nav .header_right .algos button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 5% 0%;
+  font-size: xx-large;
+}
+
+nav .header_right .algos button:hover {
+  background-color: blue;
+  cursor: progress;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor:progress;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+section {
+  /* height: 70vh; */
+  padding: 1rem;
+  /* rotate: 90deg; */
+  background-color: rebeccapurple;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+}
+
+section #Info_Cont1 {
+  background-color:rebeccapurple;
+  color: #fff;
+}
+section #Info_Cont1 .sort {
+  color: #fff;
+  background-color: black;
+  padding: 2.3rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+section #Info_Cont1 .sort h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.6rem;
+}
+section #Info_Cont1 .sort p {
+  text-align: center;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+
+
+
+section #array_container {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  rotate: 0deg;
+}
+
+section #Info_Cont2 {
+  background-color: rebeccapurple;
+  color: #fff;
+}
+section #Info_Cont2 .sort {
+  color: #fff;
+  background-color: black;
+  padding: 2.3rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+section #Info_Cont2 .sort h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.6rem;
+}
+section #Info_Cont2 .sort p {
+  text-align: center;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+
+}
+
+
+.hide {
+  display: none;
+}
+/* .btn {
+  height: 40px;
+  padding: 0.3rem;
+  margin-top: 0.4rem;
+} */
+
